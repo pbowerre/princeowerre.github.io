@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Owerre</title>
+    <link rel="stylesheet" href="srcs/styleme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="srcs/img/ban2.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="testMode">
+        
+        <form name="form">
+            <input class="form-control" name="textview" type="text" id="fill">
+        </form>
+            <table>
+                <tr>
+                    <td colspan="2"><button class="firsters"type="button" value="C" onclick="clean()" style="width: 98%;">C</button></td>
+                    <td><button class="firsters"type="button" value="." onclick="insertNum('.')">.</button></td>
+                    <td><button type="button" value="3" onclick="insertNum(3)">3</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button id="lasters"type="button" value="7" onclick="insertNum(7)">7</button></td>
+                    <td><button id="lasters"type="button" value="8" onclick="insertNum(8)">8</button></td>
+                    <td><button id="lasters"type="button" value="9" onclick="insertNum(9)">9</button></td>
+                    <td><button type="button" value="*" onclick="insertNum('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button id="lasters"type="button" value="4" onclick="insertNum(4)">4</button></td>
+                    <td><button id="lasters"type="button" value="5" onclick="insertNum(5)">5</button></td>
+                    <td><button id="lasters"type="button" value="6" onclick="insertNum(6)">6</button></td>
+                    <td><button type="button" value="-" onclick="insertNum('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="lasters"type="button" value="1" onclick="insertNum('1')">1</button></td>
+                    <td><button id="lasters"type="button" value="2" onclick="insertNum('2')">2</button></td>
+                    <td><button id="lasters"type="button" value="3" onclick="insertNum('3')">3</button></td>
+                    <td><button type="button" value="+" onclick="insertNum('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="lasters"type="button" value="0" onclick="insertNum(0)">0</button></td>
+                    <td><button id="lasters"type="button" value="<" onclick="back()"><</button></td>
+                    <td><button id="lasters"type="button" value="/" onclick="insertNum('/')">/</button></td>
+                    <td><button type="button" value="=" onclick="equal()">=</button></td>
+                </tr>
+            </table>
+       
+    </div>
+
+    <script src="srcs/freak.js"></script>
+</body>
+</html>
